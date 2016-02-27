@@ -32,7 +32,7 @@ def printReport(theList):
     for record in theList:
         print( "%5d %-25s %-10s %4.2f" % \
                (record.idNum, \
-                record.lastName + ',  ', + record.firstName,
+                record.lastName + ',  ' + record.firstName,
                 classNames[record.classCode], record.gpa))
     # Add a footer.
     print("-" * 50)

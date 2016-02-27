@@ -39,7 +39,7 @@ class StudentFileReader:
         student.idNum = int(line)
         student.firstName = self._inputFile.readline().rstrip()
         student.lastName = self._inputFile.readline().rstrip()
-        student.classCode = int(self._inputFile.readlin())
+        student.classCode = int(self._inputFile.readline())
         student.gpa = float(self._inputFile.readline())
         return student
 
